@@ -81,10 +81,10 @@ html_temp = """
    </div>
    """
 st.markdown(html_temp,unsafe_allow_html=True)
-st.header("Restaurant Review System ")
+st.header("NLP Review System ")
   
   
-text = st.text_area("Writre Review of Restaurant here...")
+text = st.text_area("Writre Review here...")
 
 if st.button("Review Analysis"):
   result=review(text)
